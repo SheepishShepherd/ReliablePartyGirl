@@ -1,0 +1,4 @@
+displayName = Party Girl never misses a party!!
+author = SheepishShepherd
+homepage = https://forums.terraria.org/index.php?threads/reliable-party-girl.101138/
+version = 0.1.1
