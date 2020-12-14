@@ -3,3 +3,8 @@
 ################################################################################
 
 /bin/Debug/net45
+/.vs/ReliablePartygirl
+/obj
+/Properties
+*.sln
+*.csproj
