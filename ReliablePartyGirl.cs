@@ -11,11 +11,11 @@ namespace ReliablePartyGirl
 	{
 	}
 
-	public class PartyWorld : ModWorld
+	public class PartyWorld : ModSystem
 	{
 		public bool SpawnPartyGirlReady = false;
 
-		public override void PreUpdate()
+		public override void PreUpdateWorld()
 		{
 			// At night, reset PartyGirl spawn cooldown. Genuine parties can never occur at night, so its a good spot to reset
 			// A cooldown is desired as multiple party girls should not spawn at the same party (ei. if a party girl dies)
