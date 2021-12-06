@@ -2,9 +2,10 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/bin/Debug/
 /.vs/ReliablePartygirl
 /obj
 /Properties
 *.sln
 *.mdp
+workshop.json
+/bin/Debug/
