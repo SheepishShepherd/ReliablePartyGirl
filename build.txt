@@ -1,4 +1,4 @@
 displayName = Party Girl never misses a party!!
 author = SheepishShepherd
 homepage = https://forums.terraria.org/index.php?threads/sheepish-shepherds-small-mods.79685/
-version = 0.2
+version = 0.3
