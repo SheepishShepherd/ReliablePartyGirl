@@ -32,7 +32,7 @@ namespace ReliablePartyGirl
 				}
 
 				// Create a new Party Girl NPC
-				int partyGirl = NPC.NewNPC(NPC.GetSpawnSourceForTownSpawn(), Main.spawnTileX * 16, Main.spawnTileY * 16, NPCID.PartyGirl);
+				int partyGirl = NPC.NewNPC(Entity.GetSource_TownSpawn(), Main.spawnTileX * 16, Main.spawnTileY * 16, NPCID.PartyGirl);
 
 				// Broadcast that a Party Girl has arrived
 				string npcName = Main.npc[partyGirl].GivenName;
